@@ -40,6 +40,7 @@ namespace ReleaseManager
                 .AddRazorPagesOptions(options =>
                 {
                     options.Conventions.AddPageRoute("/Home/Index", "");
+                    options.Conventions.AddPageRoute("/Home/Contact", "Contact");
                 });
         }
 
