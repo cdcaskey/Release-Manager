@@ -41,6 +41,7 @@ namespace ReleaseManager
                 {
                     options.Conventions.AddPageRoute("/Home/Index", "");
                     options.Conventions.AddPageRoute("/Home/Contact", "Contact");
+                    options.Conventions.AddPageRoute("/Home/Privacy", "Privacy");
                 });
         }
 
